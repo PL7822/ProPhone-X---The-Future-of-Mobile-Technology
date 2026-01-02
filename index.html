@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="favicon.jpg">
+    <title>ProPhone X - The Future of Mobile Technology</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">ProPhone</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content fade-in">
+            <h1 class="hero-title">ProPhone X</h1>
+            <p class="hero-subtitle">The most advanced smartphone ever created</p>
+            <p class="hero-description">Experience revolutionary technology with stunning design, powerful performance, and innovative features that redefine what's possible.</p>
+            <div class="hero-cta">
+                <button class="btn btn-primary">Buy Now</button>
+                <button class="btn btn-secondary">Learn More</button>
+            </div>
+        </div>
+        <div class="hero-image fade-in-up">
+            <img src="https://mgx-backend-cdn.metadl.com/generate/images/873852/2025-12-30/d0c6fb1c-73c3-4b32-b091-f33fb0a61d68.png" alt="ProPhone X" class="product-hero-img">
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Breakthrough Features</h2>
+            <p class="section-subtitle">Innovation in every detail</p>
+            
+            <div class="features-grid">
+                <div class="feature-card fade-in-scroll">
+                    <div class="feature-image">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/873852/2025-12-30/b99618b0-5e2e-46c9-a752-fa01579a581c.png" alt="Advanced Camera System">
+                    </div>
+                    <h3 class="feature-title">Pro Camera System</h3>
+                    <p class="feature-description">Triple-lens camera with 108MP main sensor, ultra-wide, and telephoto lenses. Capture stunning photos in any lighting condition with advanced computational photography.</p>
+                </div>
+
+                <div class="feature-card fade-in-scroll">
+                    <div class="feature-image">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/873852/2025-12-30/6dd7d398-0f31-4256-bf24-87d2f503dd67.png" alt="OLED Display">
+                    </div>
+                    <h3 class="feature-title">Super Retina Display</h3>
+                    <p class="feature-description">6.7-inch OLED display with 120Hz ProMotion technology. Experience true-to-life colors, deep blacks, and incredible brightness for immersive viewing.</p>
+                </div>
+
+                <div class="feature-card fade-in-scroll">
+                    <div class="feature-image">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/873852/2025-12-30/1ac0f30d-3d5a-49f6-bd19-0456dc26b8b8.png" alt="AI Processor">
+                    </div>
+                    <h3 class="feature-title">AI-Powered Chip</h3>
+                    <p class="feature-description">Next-generation processor with dedicated AI engine. Lightning-fast performance, intelligent power management, and seamless multitasking capabilities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery/Carousel Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Designed to Perfection</h2>
+            <p class="section-subtitle">Every angle tells a story</p>
+            
+            <div class="carousel">
+                <div class="carousel-container" id="carouselContainer">
+                    <div class="carousel-slide active">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/873852/2025-12-30/6ba8ad29-b780-48b2-8b26-981ca1fe501b.png" alt="ProPhone X Angle 1">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/873852/2025-12-30/bf4e7af3-7c6c-43b7-9bd7-99944915e738.png" alt="ProPhone X Angle 2">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/873852/2025-12-30/d0c6fb1c-73c3-4b32-b091-f33fb0a61d68.png" alt="ProPhone X Hero">
+                    </div>
+                </div>
+                
+                <button class="carousel-btn carousel-prev" id="carouselPrev" aria-label="Previous slide">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <button class="carousel-btn carousel-next" id="carouselNext" aria-label="Next slide">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                
+                <div class="carousel-indicators" id="carouselIndicators">
+                    <button class="indicator active" data-slide="0"></button>
+                    <button class="indicator" data-slide="1"></button>
+                    <button class="indicator" data-slide="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Have questions? We'd love to hear from you</p>
+            
+            <form class="contact-form" id="contactForm" novalidate>
+                <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+                    <span class="form-error" id="nameError"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="email" class="form-input" placeholder="your.email@example.com" required>
+                    <span class="form-error" id="emailError"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone" class="form-label">Phone (Optional)</label>
+                    <input type="tel" id="phone" name="phone" class="form-input" placeholder="+1 (555) 123-4567">
+                    <span class="form-error" id="phoneError"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" name="message" class="form-input form-textarea" placeholder="Tell us what you're interested in..." rows="5" required></textarea>
+                    <span class="form-error" id="messageError"></span>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+                <div class="form-success" id="formSuccess">Thank you! Your message has been sent successfully.</div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ProPhone</h4>
+                    <p>Redefining mobile technology</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="#hero">ProPhone X</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#contact">FAQ</a></li>
+                        <li><a href="#contact">Warranty</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="#hero">Twitter</a></li>
+                        <li><a href="#hero">Instagram</a></li>
+                        <li><a href="#hero">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ProPhone. All rights reserved. | <a href="#hero">Privacy Policy</a> | <a href="#hero">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>
